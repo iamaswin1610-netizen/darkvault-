@@ -1,0 +1,15 @@
+{
+  "name": "DarkVault",
+  "short_name": "DarkVault",
+  "description": "Your personal digital vault — documents and reminders, secured with a 6-digit code.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#060a17",
+  "theme_color": "#060a17",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
