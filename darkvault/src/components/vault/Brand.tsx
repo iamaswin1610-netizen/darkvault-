@@ -1,12 +1,12 @@
-import logo from "@/assets/darkvault_logo.png.asset.json";
+import logoUrl from "@/assets/darkvault_logo.svg";
 import { cn } from "@/lib/utils";
 
-export const LOGO_URL = logo.url;
+export const LOGO_URL = logoUrl;
 
 export function Logo({ className }: { className?: string }) {
   return (
     <img
-      src={logo.url}
+      src={logoUrl}
       alt="DarkVault logo"
       width={512}
       height={512}

@@ -1,0 +1,7 @@
+[build]
+  # The app lives in the "darkvault" subfolder of this repository.
+  base = "darkvault"
+  # Install dependencies explicitly: the repo has no lockfile, and some deploy
+  # paths run the build without installing packages first (causing "vite: not found").
+  command = "npm install --include=dev --legacy-peer-deps && npm run build"
+  publish = "dist"

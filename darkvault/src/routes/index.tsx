@@ -1,6 +1,6 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import hacker from "@/assets/hooded_hacker_binary.jpg";
+import hacker from "@/assets/hooded_hacker_binary.svg";
 import { BinaryRain } from "@/components/vault/BinaryRain";
 import { Logo, Wordmark } from "@/components/vault/Brand";
 import { useVault } from "@/lib/vault";

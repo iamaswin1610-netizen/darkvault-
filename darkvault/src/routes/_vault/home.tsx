@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useQuery } from "@tanstack/react-query";
 import { Award, Bell, FileText, GraduationCap, Lock, Settings, User } from "lucide-react";
-import hacker from "@/assets/hooded_hacker_binary.jpg";
+import hacker from "@/assets/hooded_hacker_binary.svg";
 import { BinaryRain } from "@/components/vault/BinaryRain";
 import { SectionLabel } from "@/components/vault/ScreenHeader";
 import { documentsQuery, remindersQuery } from "@/lib/vault-data";
